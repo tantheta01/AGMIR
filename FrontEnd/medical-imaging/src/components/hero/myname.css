@@ -1,0 +1,41 @@
+.blue-btn a{
+    color: white;
+    text-decoration:none;
+    text-align: center;
+    display:block; /* important */
+  }
+  
+  .blue-btn, .first-link{
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;     
+  }
+  
+  
+  .blue-btn{
+    height: 64px;
+    font: normal normal 700 1em/4em Arial,sans-serif;
+    overflow: hidden;
+    width: 200px;
+    background-color: #3b5998;
+    border-radius: 20px;
+  }
+  
+ /* .blue-btn:hover{
+     background-color: #003D60;
+    
+  }
+  
+  .blue-btn a:hover{
+    text-decoration: none;
+  } */
+  
+  .first-link{
+    margin-top: 0em;   
+  }
+  
+ /* .blue-btn:hover .first-link{
+    margin-top: -4em;
+  }*/
